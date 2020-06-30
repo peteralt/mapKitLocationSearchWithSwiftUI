@@ -14,6 +14,7 @@
 		8A09240224ABC7B600018F12 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8A09240124ABC7B600018F12 /* Preview Assets.xcassets */; };
 		8A09240524ABC7B600018F12 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8A09240324ABC7B600018F12 /* LaunchScreen.storyboard */; };
 		8A09241024ABC7B700018F12 /* LocationSearchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A09240F24ABC7B700018F12 /* LocationSearchTests.swift */; };
+		8A09241B24ABC86000018F12 /* LocationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A09241A24ABC86000018F12 /* LocationService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +39,7 @@
 		8A09240B24ABC7B700018F12 /* LocationSearchTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LocationSearchTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8A09240F24ABC7B700018F12 /* LocationSearchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationSearchTests.swift; sourceTree = "<group>"; };
 		8A09241124ABC7B700018F12 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8A09241A24ABC86000018F12 /* LocationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +84,7 @@
 				8A0923F824ABC7B400018F12 /* AppDelegate.swift */,
 				8A0923FA24ABC7B400018F12 /* SceneDelegate.swift */,
 				8A0923FC24ABC7B400018F12 /* ContentView.swift */,
+				8A09241A24ABC86000018F12 /* LocationService.swift */,
 				8A0923FE24ABC7B600018F12 /* Assets.xcassets */,
 				8A09240324ABC7B600018F12 /* LaunchScreen.storyboard */,
 				8A09240624ABC7B600018F12 /* Info.plist */,
@@ -210,6 +213,7 @@
 			files = (
 				8A0923F924ABC7B400018F12 /* AppDelegate.swift in Sources */,
 				8A0923FB24ABC7B400018F12 /* SceneDelegate.swift in Sources */,
+				8A09241B24ABC86000018F12 /* LocationService.swift in Sources */,
 				8A0923FD24ABC7B400018F12 /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
