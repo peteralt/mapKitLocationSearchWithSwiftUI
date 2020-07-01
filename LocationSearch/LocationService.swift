@@ -16,7 +16,7 @@ class LocationService: NSObject, ObservableObject {
         case idle
         case noResults
         case isSearching
-        case error(String?)
+        case error(String)
         case result
     }
     

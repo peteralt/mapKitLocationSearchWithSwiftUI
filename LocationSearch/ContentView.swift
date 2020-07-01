@@ -26,10 +26,15 @@ struct ContentView: View {
                 }
                 Section(header: Text("Results")) {
                     List {
-                        if locationService.status == .noResults {
-                            Text("No Results")
-                                .foregroundColor(Color.gray)
-                        }
+                        // With Xcode 12, this will not be necessary as it supports switch statements.
+                        Group { () -> AnyView in
+                            switch locationService.status {
+                            case .noResults: return AnyView(Text("No Results"))
+                            case .error(let description): return AnyView(Text("Error: \(description)"))
+                            default: return AnyView(EmptyView())
+                            }
+                        }.foregroundColor(Color.gray)
+                        
                         ForEach(locationService.searchResults, id: \.self) { completionResult in
                             // This simply lists the results, use a button in case you'd like to perform an action or use a NavigationLink to move to the next view upon selection.
                             Text(completionResult.title)
