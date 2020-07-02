@@ -15,6 +15,7 @@
 		8A09240524ABC7B600018F12 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8A09240324ABC7B600018F12 /* LaunchScreen.storyboard */; };
 		8A09241024ABC7B700018F12 /* LocationSearchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A09240F24ABC7B700018F12 /* LocationSearchTests.swift */; };
 		8A09241B24ABC86000018F12 /* LocationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A09241A24ABC86000018F12 /* LocationService.swift */; };
+		8A3E361D24AD781900BA8DCA /* Readme.md in Resources */ = {isa = PBXBuildFile; fileRef = 8A3E361C24AD781900BA8DCA /* Readme.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,7 @@
 		8A09240F24ABC7B700018F12 /* LocationSearchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationSearchTests.swift; sourceTree = "<group>"; };
 		8A09241124ABC7B700018F12 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8A09241A24ABC86000018F12 /* LocationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationService.swift; sourceTree = "<group>"; };
+		8A3E361C24AD781900BA8DCA /* Readme.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Readme.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 		8A0923EC24ABC7B400018F12 = {
 			isa = PBXGroup;
 			children = (
+				8A3E361C24AD781900BA8DCA /* Readme.md */,
 				8A0923F724ABC7B400018F12 /* LocationSearch */,
 				8A09240E24ABC7B700018F12 /* LocationSearchTests */,
 				8A0923F624ABC7B400018F12 /* Products */,
@@ -193,6 +196,7 @@
 			files = (
 				8A09240524ABC7B600018F12 /* LaunchScreen.storyboard in Resources */,
 				8A09240224ABC7B600018F12 /* Preview Assets.xcassets in Resources */,
+				8A3E361D24AD781900BA8DCA /* Readme.md in Resources */,
 				8A0923FF24ABC7B600018F12 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
